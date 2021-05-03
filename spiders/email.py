@@ -19,10 +19,10 @@ class fray_fitness(scrapy.Spider):
             
         else:
             mailer = MailSender(
-                smptphost='christopherlandaverde@gmail.com',
+                smptphost='******',
                 mailfrom='scrapy.send@gmail.com',
                 smtpuser='scrapy.send@gmail.com',
-                smtppas='Hankmoody9243!',
+                smtppas='*****',
                 smtpport=587
             )
         
